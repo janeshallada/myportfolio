@@ -3,8 +3,8 @@
 const portfolioData = {
     hero: {
         name: "Janesh Allada",
-        title: "Computer Science Engineering Student | Full Stack Developer | AI/ML Enthusiast",
-        description: "Passionate about building innovative solutions with modern technologies. Experienced in web development, artificial intelligence, and cloud computing.",
+        title: "Computer Science & Engineering Student | MERN Stack Developer | Python Developer | AI/ML Enthusiast",
+        description: "Passionate about building innovative solutions with modern technologies. Experienced in web development, artificial intelligence, and Python Development.",
         socials: [
             { icon: "github", url: "https://github.com/janeshallada", label: "GitHub" },
             { icon: "linkedin", url: "https://linkedin.com/in/janesh-allada", label: "LinkedIn" },
@@ -16,7 +16,7 @@ const portfolioData = {
         {
             icon: "💻",
             title: "Programming Languages",
-            tags: ["Python", "C++", "Java", "JavaScript", "HTML/CSS"]
+            tags: ["Python", "C++", "JavaScript", "HTML/CSS"]
         },
         {
             icon: "🌐",
@@ -31,12 +31,12 @@ const portfolioData = {
         {
             icon: "☁️",
             title: "Cloud & DevOps",
-            tags: ["AWS", "Azure", "Docker", "Git"]
+            tags: ["AWS", "Git"]
         },
         {
             icon: "🛠️",
             title: "Tools & Frameworks",
-            tags: ["VS Code", "Jupyter", "Postman", "GitHub"]
+            tags: ["VS Code", "Jupyter", "GitHub"]
         },
         {
             icon: "📊",
@@ -47,28 +47,28 @@ const portfolioData = {
     
     projects: [
         {
-            title: "E-commerce Platform",
-            date: "2024",
-            description: "Full-stack e-commerce application with user authentication, product management, and payment integration using Django and React.",
-            tags: ["Django", "React", "MySQL", "Stripe"]
+            title: "Novel Vehicle Damage Detection & Repair Cost Estimation Using DeepLearning (YOLOv5) - (Main Project)",
+            date: "2025",
+            description: " Built a deep learning system using Python, YOLOv5 & TensorFlow to detect vehicle damage and estimate repair costs( 85% faster claims).",
+            tags: ["Python", "YOLOv5", "MySQL", "DataBase", "OpenCv"]
         },
         {
-            title: "AI Chatbot",
+            title: "Telegram Chatbot",
             date: "2024",
             description: "Intelligent chatbot using NLP and machine learning to provide automated customer support with sentiment analysis.",
             tags: ["Python", "TensorFlow", "NLP", "Flask"]
         },
         {
-            title: "Face Recognition System",
+            title: "Language Translator Using python",
             date: "2023",
-            description: "Real-time face detection and recognition system using OpenCV and deep learning for security applications.",
-            tags: ["Python", "OpenCV", "Keras", "Deep Learning"]
+            description: "Designed a Python-based Language Translator that supports multiple languages using external translation APIs for 20+ languages.",
+            tags: ["Python"]
         },
         {
-            title: "Weather App",
+            title: "Talking Robot Using Python and JavaScript",
             date: "2023",
-            description: "Responsive weather application with real-time data visualization, forecasts, and location-based services.",
-            tags: ["React", "API Integration", "JavaScript", "Bootstrap"]
+            description: "Created a Talking Robot using Python and JavaScript with speech recognition and text-to-speech for real-time voice interaction.",
+            tags: ["Python", "JavaScript", "HTML", "CSS", "Bootstrap"]
         },
         {
             title: "Portfolio Website",
@@ -77,53 +77,59 @@ const portfolioData = {
             tags: ["HTML", "CSS", "JavaScript", "Bootstrap"]
         },
         {
-            title: "Task Manager",
-            date: "2023",
-            description: "Collaborative task management system with real-time updates, team collaboration features, and progress tracking.",
-            tags: ["Django", "JavaScript", "WebSocket", "PostgreSQL"]
+            title: "Security Guard Recruitment System Using Python Django Framework- (Mini Project)",
+            date: "2022",
+            description: " Built a Django-based Security Guard Recruitment System to automate job postings, applicant tracking, and interview scheduling for security agencies, reducing manual effort by ˜ 60%.",
+            tags: ["Django", "JavaScript", "HTML", "CSS", "Python"]
         }
     ],
     
     experience: [
         {
-            title: "Full Stack Web Developer Intern",
-            company: "DuraSoft Private Ltd",
-            period: "Sep 2024 - Nov 2024",
-            description: "Developed scalable web applications using Django and React. Implemented RESTful APIs and optimized database queries for improved performance."
+            title: " Web Developer Intern",
+            company: "APSSDC",
+            period: "May 2023 - Jul 2023",
+            description: "Developed scalable web applications using Django and Python. Optimized database queries for improved performance."
         },
         {
             title: "AI/ML Intern",
-            company: "CodeAlpha",
-            period: "Aug 2024 - Sep 2024",
-            description: "Worked on machine learning models for predictive analytics. Implemented neural networks using TensorFlow and conducted data preprocessing."
+            company: "AIMERS",
+            period: "May 2024 - Jul 2024",
+            description: "Worked on machine learning models for predictive analytics. Implemented some prototype telegram chatbots, Weather bots, Image processing, NLP"
         },
         {
-            title: "Summer Training",
-            company: "Accenture & Google",
-            period: "Jun 2024 - Jul 2024",
-            description: "Completed intensive training programs in cloud computing, AI, and modern web development practices."
+            title: "Java Full Stack Development",
+            company: "Vaultshpere",
+            period: "Dec 2024 - Jan 2025",
+            description: "Completed intensive training programs in Java, Springboots."
+        },
+        {
+            title: "MERN Stack Development",
+            company: "NxtWave",
+            period: "Ongoing",
+            description: "Currently upgrading my skills with MERN Development on NXTWAVE."
         }
     ],
     
     education: [
         {
             degree: "Bachelor of Technology in Computer Science and Engineering",
-            institution: "Vignan University",
-            period: "2022 - 2026",
-            gpa: "CGPA: 7.8/10",
-            description: "Specialized in Software Engineering, Data Structures, Algorithms, and AI/ML"
+            institution: "Godavari Institute of Engineering & Technology(A)",
+            period: "2022 - 2025",
+            gpa: "CGPA: 7.60/10",
+            description: "Specialized in Software Engineering, Python, MERN Development"
         },
         {
-            degree: "Intermediate (12th Grade)",
-            institution: "Sri Chaitanya Junior College",
-            period: "2020 - 2022",
-            gpa: "Percentage: 94.5%",
-            description: "Major: Mathematics, Physics, Chemistry (MPC)"
+            degree: "Diploma",
+            institution: "Government Polytechnic College, Vijayawada",
+            period: "2019 - 2022",
+            gpa: "Percentage: 77.51%",
+            description: "Major: Electrical and Electronics Engineering"
         },
         {
             degree: "Secondary School (10th Grade)",
-            institution: "The School of Scholars",
-            period: "2019 - 2020",
+            institution: "Montessori High School",
+            period: "2018 - 2019",
             gpa: "CGPA: 9.8/10",
             description: "Academic excellence in Science and Mathematics"
         }
@@ -131,57 +137,62 @@ const portfolioData = {
     
     certifications: [
         {
-            title: "AWS Certified Cloud Practitioner",
-            issuer: "Amazon Web Services",
+            title: "Responsive Web Design",
+            issuer: "FreeCodeCamp",
             date: "2024",
-            description: "Validated cloud computing knowledge and AWS platform expertise"
+            description: "Expert-level in Web pages Designing and best practices"
         },
         {
-            title: "Microsoft Azure Fundamentals",
-            issuer: "Microsoft",
-            date: "2024",
-            description: "Demonstrated understanding of cloud concepts and Azure services"
+            title: "Data Analytics Job Simulation",
+            issuer: "Deloitte",
+            date: "2025",
+            description: "Demonstrated understanding fundamentals of Data Analysis and Forensic Technology"
         },
         {
-            title: "Full Stack Web Development",
-            issuer: "DuraSoft",
-            date: "2024",
-            description: "Comprehensive training in modern web development technologies"
+            title: "Java Full Stack Web Development",
+            issuer: "Vaultsphere",
+            date: "2025",
+            description: "Comprehensive training in modern Java and Springboot technologies"
         },
         {
-            title: "Machine Learning Specialization",
-            issuer: "Coursera",
+            title: "Artifical Intelligence",
+            issuer: "Artificial Intelligence Medical and Engineering Researchers Society (AIMER Society)",
+            date: "2024",
+            description: "Advanced coursework in AI technologies and Machine learning problems"
+        },
+        {
+            title: "Web Development Using Django",
+            issuer: "APSSDC",
             date: "2023",
-            description: "Advanced coursework in ML algorithms and neural networks"
-        },
-        {
-            title: "Python Programming",
-            issuer: "CodeAlpha",
-            date: "2023",
-            description: "Expert-level Python programming and best practices"
+            description: "Comprehensive training in Python development and Django Framework"
         }
     ],
     
     achievements: [
         {
-            title: "Smart India Hackathon Finalist",
-            description: "Selected as finalist in national-level hackathon for innovative AI solution",
-            year: "2024"
+            title: "Nestle E-Learning Resilience",
+            description: "Completed the tasks effectively in the Nesternship",
+            year: "2025"
         },
         {
-            title: "University Coding Competition Winner",
-            description: "First place in inter-university programming competition",
-            year: "2024"
+            title: "All India NCAT",
+            description: "Actively participated Aptitue test and secured 17268 rank conducted by Naukari Campus",
+            year: "2025"
         },
         {
-            title: "Open Source Contributor",
-            description: "Active contributor to multiple open-source projects on GitHub",
-            year: "2023-2024"
+            title: "AWS Machine Learning Foundation",
+            description: "Actively completed the tasks and earned a badge on AWS Educate",
+            year: "2025"
         },
         {
             title: "Research Paper Publication",
-            description: "Co-authored paper on AI applications in healthcare",
-            year: "2023"
+            description: "Co-authored paper on Deep Learning Web development in Vehicle Damage Assessment",
+            year: "2025"
+        },
+        {
+            title: "Problem Solver in Codechef",
+            description: "Solved over 50+ problems on CodeChef with difficulty rating 500",
+            year: "2025"
         }
     ]
 };
@@ -193,7 +204,7 @@ function renderHero() {
     const { name, title, description, socials } = portfolioData.hero;
     
     const socialLinks = socials.map(social => {
-        const iconSymbol = social.icon === 'github' ? '⚡' : 
+        const iconSymbol = social.icon === 'github' ? '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg>' : 
                           social.icon === 'linkedin' ? '💼' : '✉️';
         return `<a href="${social.url}" target="_blank" class="social-icon" title="${social.label}">${iconSymbol}</a>`;
     }).join('');
