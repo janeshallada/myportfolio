@@ -1,5 +1,5 @@
 # MyProtfolio#
-Developed with Frontend Technologies.\n
+Developed with Frontend Technologies.
 
 
 # Languages Used:
